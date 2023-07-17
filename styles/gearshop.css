@@ -13,6 +13,8 @@ font-family: 'Work Sans', sans-serif;
 *
 /* main style */
 .nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,7 +47,7 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E02C6D;
+   
     gap: 20px;  
     padding: 50px 140px 20px 160px;
 
@@ -80,8 +82,49 @@ font-weight: 700;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 50px 165px;
+    margin: 50px 163px;
     border: 1px solid ;
     padding: 30px;
 }
 /* sponsored end */
+/* product display */
+.product-container{
+    max-width: 1440px;
+    margin: 50px 160px 20px 160px;
+}
+.p-box{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap:5px;
+
+    
+}
+.product-box{
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    
+
+}
+.product-box img{
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    }
+    .p-title{
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .seemore{
+        text-align: right;
+        margin-top: 50px;
+    }
